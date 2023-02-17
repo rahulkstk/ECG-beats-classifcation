@@ -1,0 +1,734 @@
+%============ holdout splitting method ============%
+******************Classifier: Support Vector Classifier**************
+evaluation of classifer with 5-fold cross validation with PFI
+-----------ITERATION  1 ----------
+model score 0.888
+-------------------------------
+accuracy score: 
+ 0.888
+precision_score: 
+ 0.888
+recall_score: 
+ 0.888
+f1_score: 
+ 0.888
+confusion_matrix: 
+ [[108   0   0   1   4   6   3   0]
+ [  0 111   0   3   0   0   0   0]
+ [  1   0 118   2   3   0   0   1]
+ [  3   2   3 121   1  12   1   0]
+ [ 27   0   6   3  86   2   3   0]
+ [  7   2   3   7   0 105   1   0]
+ [  3   0   0   0   0   0 103   0]
+ [  0   0   0   1   0   0   1 136]]
+-----------ITERATION  2 ----------
+model score 0.936
+-------------------------------
+accuracy score: 
+ 0.936
+precision_score: 
+ 0.936
+recall_score: 
+ 0.936
+f1_score: 
+ 0.936
+confusion_matrix: 
+ [[106   0   1   1   6   1   4   0]
+ [  0 129   0   0   0   0   1   0]
+ [  3   0 129   0   1   0   0   0]
+ [  3   1   0 114   3   5   1   0]
+ [  6   0   5   2 106   0   2   0]
+ [  2   0   1   8   1 121   2   0]
+ [  3   0   0   0   0   0 121   1]
+ [  0   0   0   0   0   0   0 110]]
+-----------ITERATION  3 ----------
+model score 0.912
+-------------------------------
+accuracy score: 
+ 0.912
+precision_score: 
+ 0.912
+recall_score: 
+ 0.912
+f1_score: 
+ 0.912
+confusion_matrix: 
+ [[102   0   0   6   7   3   1   0]
+ [  1 126   0   1   0   0   0   0]
+ [  3   0 123   1   6   0   1   1]
+ [  3   0   0 126   3   3   0   1]
+ [ 21   0   3   3  76   0   4   0]
+ [  3   0   1   2   1  99   2   0]
+ [  1   1   0   0   0   0 130   4]
+ [  0   0   0   1   0   0   0 130]]
+-----------ITERATION  4 ----------
+model score 0.925
+-------------------------------
+accuracy score: 
+ 0.925
+precision_score: 
+ 0.925
+recall_score: 
+ 0.925
+f1_score: 
+ 0.925
+confusion_matrix: 
+ [[109   0   0   1   7   7   3   0]
+ [  0 137   0   3   0   1   0   0]
+ [  1   0 121   1   4   0   0   1]
+ [  3   0   0 113   0  10   0   0]
+ [  7   0   5   1  85   0   1   0]
+ [  0   2   1   4   0 104   4   0]
+ [  3   0   0   1   1   0 146   0]
+ [  0   0   0   1   0   0   2 110]]
+-----------ITERATION  5 ----------
+model score 0.93
+-------------------------------
+accuracy score: 
+ 0.93
+precision_score: 
+ 0.93
+recall_score: 
+ 0.93
+f1_score: 
+ 0.93
+confusion_matrix: 
+ [[107   0   0   2   9   4   2   0]
+ [  0 119   0   0   0   0   0   0]
+ [  0   0 119   0   2   0   0   1]
+ [  2   1   0 125   0   2   0   0]
+ [ 22   0   3   5 104   0   0   0]
+ [  2   1   0   2   0  93   2   0]
+ [  3   0   0   0   0   1 128   4]
+ [  0   0   0   0   0   0   0 135]]
+-------------------------------
+average model score:  0.93
+------------model with SVC-------------
+accuracy score: 
+ 0.8956
+precision_score: 
+ 0.8956
+recall_score: 
+ 0.8956
+f1_score: 
+ 0.8956
+confusion_matrix: 
+ [[3316   34    9   91  128  133   75    0]
+ [   0  214    0    3    0    0    1    0]
+ [   0    0  317    3    6    0    1    0]
+ [   0    1    0  149    4   11    0    0]
+ [   8    0    3    0   70    0    1    0]
+ [   1    0    0    0    0   27    0    0]
+ [   2    1    0    0    0    0   54    4]
+ [   0    0    0    0    0    0    2  331]]
+******************Classifier: K Neighbors Classifier******************
+evaluation of classifer with 5-fold cross validation with PFI
+-----------ITERATION  1 ----------
+model score 0.899
+-------------------------------
+accuracy score: 
+ 0.899
+precision_score: 
+ 0.899
+recall_score: 
+ 0.899
+f1_score: 
+ 0.899
+confusion_matrix: 
+ [[114   1   0   0   3   3   1   0]
+ [  0 111   0   3   0   0   0   0]
+ [  1   0 123   0   0   1   0   0]
+ [  4   4   4 117   2  10   1   1]
+ [ 25   0   5   3  86   3   4   1]
+ [  4   1   3   7   1 109   0   0]
+ [  2   0   0   1   0   0 103   0]
+ [  1   0   0   1   0   0   0 136]]
+-----------ITERATION  2 ----------
+model score 0.945
+-------------------------------
+accuracy score: 
+ 0.945
+precision_score: 
+ 0.945
+recall_score: 
+ 0.945
+f1_score: 
+ 0.945
+confusion_matrix: 
+ [[109   0   2   1   3   2   2   0]
+ [  0 130   0   0   0   0   0   0]
+ [  3   0 130   0   0   0   0   0]
+ [  5   1   2 112   1   6   0   0]
+ [  5   0   4   3 106   0   3   0]
+ [  2   1   0   5   1 125   1   0]
+ [  0   0   1   0   0   0 123   1]
+ [  0   0   0   0   0   0   0 110]]
+-----------ITERATION  3 ----------
+model score 0.93
+-------------------------------
+accuracy score: 
+ 0.93
+precision_score: 
+ 0.93
+recall_score: 
+ 0.93
+f1_score: 
+ 0.93
+confusion_matrix: 
+ [[103   0   1   5   7   2   1   0]
+ [  0 127   0   1   0   0   0   0]
+ [  2   0 132   0   1   0   0   0]
+ [  1   0   0 125   2   7   0   1]
+ [ 17   0   2   2  84   1   1   0]
+ [  5   0   0   2   1  99   1   0]
+ [  1   1   0   1   0   0 130   3]
+ [  0   0   0   1   0   0   0 130]]
+-----------ITERATION  4 ----------
+model score 0.925
+-------------------------------
+accuracy score: 
+ 0.925
+precision_score: 
+ 0.925
+recall_score: 
+ 0.925
+f1_score: 
+ 0.925
+confusion_matrix: 
+ [[106   1   1   2  10   7   0   0]
+ [  0 138   0   2   0   1   0   0]
+ [  0   0 127   0   0   1   0   0]
+ [  1   0   0 109   0  16   0   0]
+ [  7   0   4   1  86   0   1   0]
+ [  2   1   1   1   1 108   1   0]
+ [  1   0   3   3   0   2 141   1]
+ [  0   0   0   1   0   0   2 110]]
+-----------ITERATION  5 ----------
+model score 0.945
+-------------------------------
+accuracy score: 
+ 0.945
+precision_score: 
+ 0.945
+recall_score: 
+ 0.945
+f1_score: 
+ 0.945
+confusion_matrix: 
+ [[113   0   0   0   6   1   3   1]
+ [  0 119   0   0   0   0   0   0]
+ [  0   0 122   0   0   0   0   0]
+ [  1   2   2 119   1   5   0   0]
+ [ 13   0   1   2 116   0   1   1]
+ [  2   0   1   4   0  93   0   0]
+ [  2   1   1   0   0   0 129   3]
+ [  0   0   0   0   0   0   1 134]]
+-------------------------------
+average model score:  0.945
+------------model with KNN-------------
+accuracy score: 
+ 0.9116
+precision_score: 
+ 0.9116
+recall_score: 
+ 0.9116
+f1_score: 
+ 0.9116
+confusion_matrix: 
+ [[3386   36   40   36  146  121   20    1]
+ [   0  217    0    1    0    0    0    0]
+ [   0    0  324    0    3    0    0    0]
+ [   2    3    2  144    1   13    0    0]
+ [   6    0    3    0   73    0    0    0]
+ [   1    0    0    0    0   27    0    0]
+ [   0    0    0    0    0    0   57    4]
+ [   0    0    0    0    0    0    3  330]]
+******************Classifier: Logistic Regression******************
+evaluation of classifer with 5-fold cross validation with PFI
+-----------ITERATION  1 ----------
+model score 0.796
+-------------------------------
+accuracy score: 
+ 0.796
+precision_score: 
+ 0.796
+recall_score: 
+ 0.796
+f1_score: 
+ 0.796
+confusion_matrix: 
+ [[ 75   5   9   6  15   6   6   0]
+ [  3 106   0   4   1   0   0   0]
+ [  1   0 115   1   5   1   1   1]
+ [  4   5  11 102   5   7   7   2]
+ [ 20   4   8   6  78   2   8   1]
+ [  3   1   3  11   2 100   2   3]
+ [  8   4   0   4   2   0  88   0]
+ [  0   0   0   1   0   0   5 132]]
+-----------ITERATION  2 ----------
+model score 0.815
+-------------------------------
+accuracy score: 
+ 0.815
+precision_score: 
+ 0.815
+recall_score: 
+ 0.815
+f1_score: 
+ 0.815
+confusion_matrix: 
+ [[ 74   5  11   6  12   6   5   0]
+ [  3 119   1   0   1   2   4   0]
+ [  1   1 127   0   2   0   2   0]
+ [  5   2   4  98   1   7   8   2]
+ [ 15   1   5   3  94   1   2   0]
+ [  4   0   1  23   0 103   4   0]
+ [  9   8   0   7   3   3  92   3]
+ [  0   0   0   1   0   0   1 108]]
+-----------ITERATION  3 ----------
+model score 0.822
+-------------------------------
+accuracy score: 
+ 0.822
+precision_score: 
+ 0.822
+recall_score: 
+ 0.822
+f1_score: 
+ 0.822
+confusion_matrix: 
+ [[ 72   7   5  10  15   3   6   1]
+ [  3 123   0   2   0   0   0   0]
+ [  3   3 122   0   7   0   0   0]
+ [  1   2   6 108   8   5   6   0]
+ [ 20   3   5   4  72   0   3   0]
+ [  4   0   1  10   1  89   3   0]
+ [  8   7   1   3   0   3 107   7]
+ [  1   0   0   1   0   0   0 129]]
+-----------ITERATION  4 ----------
+model score 0.807
+-------------------------------
+accuracy score: 
+ 0.807
+precision_score: 
+ 0.807
+recall_score: 
+ 0.807
+f1_score: 
+ 0.807
+confusion_matrix: 
+ [[ 74   2   6  10  17  11   7   0]
+ [  2 136   0   2   0   1   0   0]
+ [  2   2 118   0   5   0   0   1]
+ [  3   8   3  93   3   9   6   1]
+ [ 15   6   9   1  67   0   1   0]
+ [  5   1   1  12   0  96   0   0]
+ [  3   3   4  15   5   3 115   3]
+ [  0   0   0   1   0   0   4 108]]
+-----------ITERATION  5 ----------
+model score 0.809
+-------------------------------
+accuracy score: 
+ 0.809
+precision_score: 
+ 0.809
+recall_score: 
+ 0.809
+f1_score: 
+ 0.809
+confusion_matrix: 
+ [[ 77   5   2  10  15   8   7   0]
+ [  0 110   1   2   4   1   1   0]
+ [  3   1 112   0   5   0   1   0]
+ [  1   2   6 108   3   7   3   0]
+ [ 18   2   7   6  94   3   4   0]
+ [  1   0   0  14   2  82   1   0]
+ [  4  10  10   6   1   6  93   6]
+ [  0   0   0   0   0   0   2 133]]
+-------------------------------
+average model score:  0.809
+------------model with Logistic Regression-------------
+accuracy score: 
+ 0.693
+precision_score: 
+ 0.693
+recall_score: 
+ 0.693
+f1_score: 
+ 0.693
+confusion_matrix: 
+ [[2367  138  156  299  375  252  187   12]
+ [   3  207    0    6    0    0    2    0]
+ [   1    6  302    1   12    4    0    1]
+ [   2    6    8  129    7   10    3    0]
+ [   6    1    4    1   65    1    4    0]
+ [   1    0    0    2    1   24    0    0]
+ [   3    2    1    4    2    3   44    2]
+ [   0    0    0    1    0    0    5  327]]
+%============ patients-hold out ============%
+******************Classifier: Support Vector Classifier**************
+evaluation of classifer with 5-fold cross validation with PFI
+-----------ITERATION  1 ----------
+model score 0.914
+-------------------------------
+accuracy score: 
+ 0.914
+precision_score: 
+ 0.914
+recall_score: 
+ 0.914
+f1_score: 
+ 0.914
+confusion_matrix: 
+ [[107   0   0   3   9   6   2   0]
+ [  0 145   0   0   0   0   0   0]
+ [  2   0 142   1   0   0   0   1]
+ [  1   3   2 100   0   4   5   0]
+ [ 20   0   6   0  95   0   1   0]
+ [  4   2   0   4   0 103   3   0]
+ [  2   0   0   1   1   0 113   2]
+ [  0   0   0   0   0   0   1 109]]
+-----------ITERATION  2 ----------
+model score 0.913
+-------------------------------
+accuracy score: 
+ 0.913
+precision_score: 
+ 0.913
+recall_score: 
+ 0.913
+f1_score: 
+ 0.9130000000000001
+confusion_matrix: 
+ [[106   0   0   2   9   5   4   0]
+ [  1 123   0   0   0   0   2   0]
+ [  0   0 102   0   7   0   0   1]
+ [  1   1   2 111   4   6   0   0]
+ [ 19   0   2   2  97   1   0   0]
+ [  1   2   0   5   0 123   4   0]
+ [  3   0   0   1   0   0 134   1]
+ [  0   0   0   0   0   0   1 117]]
+-----------ITERATION  3 ----------
+model score 0.91
+-------------------------------
+accuracy score: 
+ 0.91
+precision_score: 
+ 0.91
+recall_score: 
+ 0.91
+f1_score: 
+ 0.91
+confusion_matrix: 
+ [[ 97   2   0   2   4   3   2   0]
+ [  0 116   0   1   0   0   0   0]
+ [  0   0 115   0   6   0   0   0]
+ [  4   0   1 110   0   5   1   2]
+ [ 21   0   5   3  93   0   3   0]
+ [  6   2   2   6   1 116   0   0]
+ [  0   2   0   0   0   0 124   6]
+ [  0   0   0   0   0   0   0 139]]
+-----------ITERATION  4 ----------
+model score 0.909
+-------------------------------
+accuracy score: 
+ 0.909
+precision_score: 
+ 0.909
+recall_score: 
+ 0.909
+f1_score: 
+ 0.909
+confusion_matrix: 
+ [[ 98   1   0   3   7   7   0   0]
+ [  1 120   0   1   0   0   0   0]
+ [  2   0 123   0   6   0   0   1]
+ [  7   1   0 128   0  13   1   0]
+ [ 13   0   8   0  96   0   3   0]
+ [  4   2   1   2   1 102   2   0]
+ [  1   0   0   2   0   0 123   1]
+ [  0   0   0   0   0   0   0 119]]
+-----------ITERATION  5 ----------
+model score 0.915
+-------------------------------
+accuracy score: 
+ 0.915
+precision_score: 
+ 0.915
+recall_score: 
+ 0.915
+f1_score: 
+ 0.915
+confusion_matrix: 
+ [[ 95   0   0   4   8   9   0   0]
+ [  1 124   0   1   0   0   0   0]
+ [  4   0 121   0   0   0   0   0]
+ [  4   0   1 119   1   7   2   0]
+ [ 15   0   5   2  91   0   1   0]
+ [  4   2   1   2   2 107   1   0]
+ [  2   1   0   0   0   0 134   4]
+ [  0   0   0   1   0   0   0 124]]
+-------------------------------
+average model score:  0.915
+------------model with SVC-------------
+accuracy score: 
+ 0.8908
+precision_score: 
+ 0.8908
+recall_score: 
+ 0.8908
+f1_score: 
+ 0.8908000000000001
+confusion_matrix: 
+ [[2874    0    5   53   68  318   48    0]
+ [   0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0]
+ [   0    0    0   72    0   19    0    0]
+ [   0    0    0    0    0    0    0    0]
+ [   6    1    0    4    1  391    0    0]
+ [   6    3    0    0    0    0  311    3]
+ [   0    0    0    0    0    0   11  806]]
+******************Classifier: K Neighbors Classifier******************
+evaluation of classifer with 5-fold cross validation with PFI
+-----------ITERATION  1 ----------
+model score 0.931
+-------------------------------
+accuracy score: 
+ 0.931
+precision_score: 
+ 0.931
+recall_score: 
+ 0.931
+f1_score: 
+ 0.931
+confusion_matrix: 
+ [[111   1   1   2   7   4   1   0]
+ [  0 145   0   0   0   0   0   0]
+ [  0   0 145   0   0   0   0   1]
+ [  1   0   5 100   0   7   2   0]
+ [ 15   1   4   0 100   1   1   0]
+ [  5   0   0   1   1 109   0   0]
+ [  2   0   0   2   0   0 111   4]
+ [  0   0   0   0   0   0   0 110]]
+-----------ITERATION  2 ----------
+model score 0.923
+-------------------------------
+accuracy score: 
+ 0.923
+precision_score: 
+ 0.923
+recall_score: 
+ 0.923
+f1_score: 
+ 0.923
+confusion_matrix: 
+ [[103   1   3   0  11   6   2   0]
+ [  0 126   0   0   0   0   0   0]
+ [  0   0 108   0   1   0   0   1]
+ [  3   0   3 111   0   8   0   0]
+ [ 12   0   2   3  99   2   3   0]
+ [  1   2   1   6   0 124   1   0]
+ [  1   0   1   1   0   0 135   1]
+ [  0   0   0   0   0   0   1 117]]
+-----------ITERATION  3 ----------
+model score 0.932
+-------------------------------
+accuracy score: 
+ 0.932
+precision_score: 
+ 0.932
+recall_score: 
+ 0.932
+f1_score: 
+ 0.932
+confusion_matrix: 
+ [[ 99   0   2   2   4   3   0   0]
+ [  0 117   0   0   0   0   0   0]
+ [  0   0 121   0   0   0   0   0]
+ [  0   2   1 110   1   5   2   2]
+ [ 14   0   3   1 105   1   1   0]
+ [  5   0   3   6   0 119   0   0]
+ [  0   1   0   0   0   1 123   7]
+ [  0   0   0   0   0   0   1 138]]
+-----------ITERATION  4 ----------
+model score 0.917
+-------------------------------
+accuracy score: 
+ 0.917
+precision_score: 
+ 0.917
+recall_score: 
+ 0.917
+f1_score: 
+ 0.917
+confusion_matrix: 
+ [[104   0   0   0   6   5   1   0]
+ [  0 122   0   0   0   0   0   0]
+ [  0   0 129   0   2   0   0   1]
+ [  3   2   3 126   0  14   0   2]
+ [ 11   1   6   2  97   2   1   0]
+ [  5   1   2   3   0 103   0   0]
+ [  1   0   0   0   1   0 117   8]
+ [  0   0   0   0   0   0   0 119]]
+-----------ITERATION  5 ----------
+model score 0.943
+-------------------------------
+accuracy score: 
+ 0.943
+precision_score: 
+ 0.943
+recall_score: 
+ 0.943
+f1_score: 
+ 0.943
+confusion_matrix: 
+ [[103   0   2   1   5   5   0   0]
+ [  0 125   0   1   0   0   0   0]
+ [  0   0 124   0   1   0   0   0]
+ [  2   0   3 120   2   4   3   0]
+ [  7   0   2   3 101   1   0   0]
+ [  6   0   1   2   2 108   0   0]
+ [  1   0   0   0   0   0 138   2]
+ [  0   0   0   1   0   0   0 124]]
+-------------------------------
+average model score:  0.943
+------------model with KNN-------------
+accuracy score: 
+ 0.8732
+precision_score: 
+ 0.8732
+recall_score: 
+ 0.8732
+f1_score: 
+ 0.8732
+confusion_matrix: 
+ [[2780    2   13   44   96  400   30    1]
+ [   0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0]
+ [   0    0    0   66    0   25    0    0]
+ [   0    0    0    0    0    0    0    0]
+ [   3    0    0    0    2  398    0    0]
+ [   0    1    0    0    0    1  319    2]
+ [   0    0    0    0    0    0   14  803]]
+******************Classifier: Logistic Regression******************
+evaluation of classifer with 5-fold cross validation with PFI
+-----------ITERATION  1 ----------
+model score 0.812
+-------------------------------
+accuracy score: 
+ 0.812
+precision_score: 
+ 0.812
+recall_score: 
+ 0.812
+f1_score: 
+ 0.8119999999999999
+confusion_matrix: 
+ [[ 72   5   6  10  17   8   8   1]
+ [  1 141   0   0   0   0   3   0]
+ [  1   2 138   1   3   0   1   0]
+ [  8   2   3  87   2   5   8   0]
+ [ 13   4   8   3  90   0   3   1]
+ [  9   1   0  15   2  89   0   0]
+ [  8   5   1   5   5   4  89   2]
+ [  0   1   0   0   0   0   3 106]]
+-----------ITERATION  2 ----------
+model score 0.801
+-------------------------------
+accuracy score: 
+ 0.801
+precision_score: 
+ 0.801
+recall_score: 
+ 0.801
+f1_score: 
+ 0.801
+confusion_matrix: 
+ [[ 77   4   5  10  16   7   6   1]
+ [  1 121   0   0   1   1   2   0]
+ [  2   0 100   0   7   0   0   1]
+ [  5   4   7  88   4  10   6   1]
+ [ 21   0   4   2  82   4   8   0]
+ [  3   2   0  19   0 109   2   0]
+ [  2  12   1   4   4   5 108   3]
+ [  0   0   0   0   0   1   1 116]]
+-----------ITERATION  3 ----------
+model score 0.817
+-------------------------------
+accuracy score: 
+ 0.817
+precision_score: 
+ 0.817
+recall_score: 
+ 0.817
+f1_score: 
+ 0.817
+confusion_matrix: 
+ [[ 73   9   1   6   9   7   4   1]
+ [  2 110   0   3   2   0   0   0]
+ [  0   0 113   0   8   0   0   0]
+ [  4   4   7  96   3   4   4   1]
+ [ 21   5   6   1  79   6   7   0]
+ [  9   3   2  10   1 106   2   0]
+ [  5   2   1  10   6   0 101   7]
+ [  0   0   0   0   0   0   0 139]]
+-----------ITERATION  4 ----------
+model score 0.814
+-------------------------------
+accuracy score: 
+ 0.814
+precision_score: 
+ 0.814
+recall_score: 
+ 0.814
+f1_score: 
+ 0.8140000000000001
+confusion_matrix: 
+ [[ 80   1   2   3  16   6   6   2]
+ [  2 115   0   3   1   0   1   0]
+ [  4   2 117   0   9   0   0   0]
+ [  7   2   5 116   2   8   8   2]
+ [ 14   3   9   4  80   1   9   0]
+ [  8   0   1  14   0  91   0   0]
+ [  9   3   1   4   6   1  99   4]
+ [  0   0   0   0   0   0   3 116]]
+-----------ITERATION  5 ----------
+model score 0.806
+-------------------------------
+accuracy score: 
+ 0.806
+precision_score: 
+ 0.806
+recall_score: 
+ 0.806
+f1_score: 
+ 0.806
+confusion_matrix: 
+ [[ 64   5   4   4  16  16   6   1]
+ [  3 119   0   1   3   0   0   0]
+ [  4   1 116   0   1   1   2   0]
+ [  3   2   3 111   3   4   8   0]
+ [ 18   1   7   4  77   4   3   0]
+ [  6   6   0  15   0  90   2   0]
+ [  5   5   2  10   6   1 107   5]
+ [  0   0   0   1   0   0   2 122]]
+-------------------------------
+average model score:  0.806
+------------model with Logistic Regression-------------
+accuracy score: 
+ 0.805
+precision_score: 
+ 0.805
+recall_score: 
+ 0.805
+f1_score: 
+ 0.805
+confusion_matrix: 
+ [[2585    6   19  164  205  292   93    2]
+ [   0    0    0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0]
+ [   1    1    0   78    0    6    2    3]
+ [   0    0    0    0    0    0    0    0]
+ [  18    2    0   53    2  319    9    0]
+ [  16   44    1   16    0   10  231    5]
+ [   0    0    0    0    0    0    5  812]]
